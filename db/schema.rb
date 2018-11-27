@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 2018_10_14_133914) do
 
   create_table "coins", force: :cascade do |t|
-    t.string "decription"
+    t.string "description"
     t.string "acronym"
     t.string "url_image"
     t.datetime "created_at", null: false
