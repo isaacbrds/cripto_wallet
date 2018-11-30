@@ -1,4 +1,7 @@
 <h1>Seja Bem Vindo!</h1>
 <p>Ao Nosso Site de Cripto Wallet</p>
-<p><%= data_br(Date.today) %></p>
+<p>O idioma usado nessa aplicacao é: <%= I18n.locale %> </p>
+<p><%=t('hello') %></p>
+
+<p><%= l(Date.today) %></p>
 <%= render 'menu'%>

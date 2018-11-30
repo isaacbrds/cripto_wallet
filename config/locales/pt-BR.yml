@@ -1,0 +1,30 @@
+pt-BR:
+  hello: Alo Mundo
+  links:
+    edit: Editar
+    show: Mostrar
+    destroy: Excluir
+  activerecord:
+    models:
+      coin: 
+        one: Moeda
+        other: Moedas
+      mining_type: 
+        one: Tipo de Mineração
+        other: Tipos de Mineração
+    attributes:
+      coin:
+        description: Descrição
+        acronym: Sigla
+        url_image: Url da Imagem
+        mining_type: Tipo de Mineração
+        updated_at: Atualizado em
+        created_at: Criado em
+      mining_type:
+        description: Descrição
+        acronym: Sigla
+        mining_type: Tipo de Mineração
+        updated_at: Atualizado em
+        created_at: Criado em
+        
+      
