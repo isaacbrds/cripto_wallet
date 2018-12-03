@@ -3,6 +3,7 @@ pt-BR:
   welcome: Sejam bem vindos!
   welcome-msg: Este é o cripto wallet, um app para cadastrar e acompanhar suas cripto moedas!
   welcome-msg-select: "Escolha uma das opções abaixo: "
+  msg-sure: Você está certo disso?
   coin-reg: Cadastrar Moedas
   mining-type-reg: Cadastrar tipo de mineração
   links:
@@ -10,6 +11,16 @@ pt-BR:
     edit: Editar
     show: Mostrar
     destroy: Excluir
+    back: Voltar
+  new:
+    coin: Nova Moeda
+    mining_type: Novo Tipo de Mineração
+  editing:
+    coin: Editando Moeda
+    mining_type: Editando Tipo de Mineração
+  showing:
+    coin: Mostrando Moeda
+    mining_type: Mostrando Tipo de Mineração
   activerecord:
     models:
       coin: 

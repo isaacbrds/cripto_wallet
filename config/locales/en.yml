@@ -36,8 +36,19 @@ en:
   coin-reg: Register a Coin
   mining-type-reg: Register a Mining Type
   hello: "Hello world"
+  msg-sure: Are you sure?
   links:
     new: New
     edit: Edit
     show: Show
     destroy: Delete 
+    back: Back
+  new:
+    coin: New Coin
+    mining_type: New Mining Type
+  editing:
+    coin: Editing Coin
+    mining_type: Editing Mining Type
+  showing:
+    coin: Showing Coin
+    mining_type: Showing Mining Type

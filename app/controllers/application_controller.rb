@@ -1,11 +1,13 @@
 class ApplicationController < ActionController::Base
-    before_action :set_locale
-
-    private        
     def set_locale
         if params[:locale]
-            session[:locale] =  params[:locale] 
-            I18n.locale = session[:locale]
+          cookies[:locale] = params[:locale]
         end
-    end
+        
+        if cookies[:locale]
+          if I18n.locale != cookies[:locale]
+            I18n.locale = cookies[:locale]
+          end
+        end
+      end
 end
