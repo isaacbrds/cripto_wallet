@@ -1,6 +1,12 @@
 pt-BR:
   hello: Alo Mundo
+  welcome: Sejam bem vindos!
+  welcome-msg: Este é o cripto wallet, um app para cadastrar e acompanhar suas cripto moedas!
+  welcome-msg-select: "Escolha uma das opções abaixo: "
+  coin-reg: Cadastrar Moedas
+  mining-type-reg: Cadastrar tipo de mineração
   links:
+    new: Novo
     edit: Editar
     show: Mostrar
     destroy: Excluir

@@ -30,8 +30,14 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  welcome: Welcome!
+  welcome-msg: This is crypto wallet, this is an app to create and keep up with yours Cryptocurrencies! 
+  welcome-msg-select: "Choose one of this bellow options:"
+  coin-reg: Register a Coin
+  mining-type-reg: Register a Mining Type
   hello: "Hello world"
   links:
+    new: New
     edit: Edit
     show: Show
     destroy: Delete 

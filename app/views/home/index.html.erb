@@ -1,7 +1,9 @@
-<h1>Seja Bem Vindo!</h1>
-<p>Ao Nosso Site de Cripto Wallet</p>
-<p>O idioma usado nessa aplicacao é: <%= I18n.locale %> </p>
-<p><%=t('hello') %></p>
+<div class="jumbotron">
+  <h1 class="display-4"><%= t('welcome') %></h1>
+  <p class="lead"><%= t('welcome-msg') %></p>
+  <hr class="my-4">
+  <p><%= t('welcome-msg-select') %></p>
+  <%= render 'menu'%>
+  
+</div>
 
-<p><%= l(Date.today) %></p>
-<%= render 'menu'%>
